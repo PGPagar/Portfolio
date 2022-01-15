@@ -1,0 +1,385 @@
+@font-face {
+    font-family: galanoBold;
+    src: url(./fonts/Galano_Grotesque_Bold.otf);
+  }
+
+@font-face {
+  font-family: galanoLight;
+  src: url(./fonts/Galano_Grotesque_Light.otf);
+}
+
+::-webkit-scrollbar {
+    width: 0px !important;
+  }
+
+*{
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+    outline: none !important;
+    list-style: none !important;
+    text-decoration: none !important;
+    font-family: galanoLight !important;
+}
+/* #ff5252 */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0 12% !important;
+    min-width: 400px !important;
+    background-color: #131313 !important;
+    background-image: url("images/dot-grid.svg") !important;
+}
+
+#root {
+    position: relative !important;
+}
+
+header {
+    align-items: center !important; 
+    width: 100% !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    margin-top: 30px !important;
+}
+
+.name {
+    font-family: galanoBold !important;
+    font-size: 2rem !important;
+    color: #F2F2F2 !important;
+}
+
+.menu {
+    font-size: 1rem !important;
+}
+
+.menu ul {
+    display: flex !important;
+}
+
+.menu ul li {
+    text-transform: uppercase !important;
+    margin: 0 10px !important;
+}
+
+.menu p {
+    text-decoration: none !important;
+    color: #f2f2f2 !important;
+    transition: color 0.3s ease-in-out !important;
+}
+
+.menu p:hover {
+    text-decoration: underline !important;
+    color: #ff5252 !important; 
+}
+
+/* ------ About ----- */
+
+.about {
+    color: #f2f2f2 !important;
+    padding: 80px 0px 110px 0 !important;
+}
+
+.about h1 {
+    padding-bottom: 30px !important;
+}
+
+.about p {
+    padding: 0 50px 0px 0 !important;
+}
+
+.about img {
+    float: left;
+    width: 30%;
+    margin-right: 40px!important;
+}
+
+/* ------ Intor ----- */
+#introDiv {
+    padding: 100px 0 70px 0 !important;
+    color: #f2f2f2 !important;
+    align-items: center !important;
+}
+
+#introImg {
+    border-radius: 50% !important;
+    border: 1.5px solid #F2F2F2 !important; 
+    width: 30px !important;
+    height: 30px !important;
+    float: left !important;
+}
+
+.intro {
+    font-size: 20px !important;
+    padding-left: 50px !important;
+}
+
+.tagLine {
+    padding: 3vw 20% 20px 4% !important;
+    margin-bottom: 70px !important;
+}
+
+.tag1 {
+    font-family: galanoBold !important;
+    font-size: 6vw !important;
+    line-height: 70px !important;
+    letter-spacing: 3px !important;
+}
+
+.tag2 {
+    font-size: 3vw !important;
+}
+
+.scrole {
+    bottom: 0%!important;
+    margin: 85px auto 50px !important;
+    text-align: center!important;
+}
+
+.projtitle {
+    padding-left: 6.5% !important;
+}
+
+.projtitle h2 {
+    font-family: galanoBold !important;
+}
+
+
+/* ------ Cards ----- */
+
+.card {
+    border: 1.5px solid #f2f2f2 !important;
+    color: #f2f2f2 !important;
+    background-color: #131313 !important;
+    border-radius: 3px !important;
+    margin: 0 20px 3.5% 20px !important;
+    display: flex !important;
+    justify-content: space-between !important;
+    overflow: hidden !important;
+}
+
+
+.projImg {
+    border-radius: 5px 5px 0 0 !important;
+    max-height: 17rem !important;
+    object-fit: cover !important;
+    object-position: 50% 0%;
+}
+
+.projTitle {
+    width: 100% !important;
+    padding-bottom: 20px !important;
+    float: left !important;
+    padding: 2% 7% !important;
+    font-family: galanoBold !important;
+}
+
+
+.projAbout {
+    padding: 5% 5% 5% 7% !important;
+    font-family: galanoLight !important;
+    display: block !important;
+    overflow-wrap: break-word !important;
+}
+
+.tag {
+    font-family: galanoLight !important;
+    float: left !important;
+    display: inline !important;
+    padding: 0 7% 7% 7% !important;
+}
+
+.link {
+    color: #f2f2f2 !important;
+}
+
+.link:hover {
+    color: #A3A3A3 !important;
+    opacity: 70% !important;
+ }
+
+footer {
+    color: #F2F2F2 !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 5% 0 6% 0 !important;
+}
+
+.footresume {
+    color: #ff5252 !important;
+}
+
+.footresume:hover {
+    text-decoration: underline !important;
+}
+
+.resumeline h1 {
+    margin-bottom: 20px !important;
+}
+
+/* ------ project pages ----- */
+
+.projHead {
+    font-family: galanoBold !important;
+    color: #f2f2f2 !important;
+    font-size: 2rem !important;
+    padding: 50px 0 40px 15% !important;
+}
+
+.banner {
+    width: 70% !important;
+    height: 27vw !important;
+    object-fit: cover !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.text1 {
+    color: #F2F2F2 !important;
+    width: 70% !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding: 50px 0 0 0 !important;
+}
+
+.text1 h3 {
+    padding-bottom: 40px !important;
+}
+
+.text1 p {
+    letter-spacing: 1px !important;
+}
+
+.boldSpan {
+    font-family: galanoBold !important;
+}
+
+.text1 li {
+    list-style-type:disc !important;
+    line-height: 25px !important;
+}
+
+.text1 ul {
+    padding-left: 20px !important;
+}
+
+.inImg {
+    width: 60% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.gifImg {
+    width: 30% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+.giftag {
+    width: auto !important;
+    padding-top: 10px !important;
+}
+
+.isoimg {
+    width: 60% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.smallisoimg {
+    width: 30% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.vid {
+    width: 40% !important;  
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 40px !important;
+}
+
+.longimg {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.more h1 {
+    padding-bottom: 40px !important;
+}
+
+/* ------ Button ----- */
+
+#b-t-t {
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 8%;
+    width: 50px;
+    height: 50px;
+    background-color: #131313;
+    cursor: pointer;
+    border: none;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+}
+
+#btn-img {
+    width: 40px;
+    height: 40px;
+}
+
+.btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+}
+
+@keyframes btnEntrance {
+    from {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    } to {
+        opacity: 1;
+    }
+}
+
+.btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;
+    animation-name: btnExit;
+}
+
+@keyframes btnExit {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+    }
+}
